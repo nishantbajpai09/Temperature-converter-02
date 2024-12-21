@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer_box">
+       
+       <span id="heading">Temperature Converter</span>
+        <div class="main_box">
+
+            <div class="top_box">
+                <div>
+                    <label for="fromUnit">From :</label>
+                </div>
+
+
+                <select class="select_box" id="fromUnit">
+                    <option value="C">Celcius</option>
+                    <option value="F">Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </select>
+            </div>
+
+            <div class="box2">
+                <div>
+                    <label for="toUnit">To :</label>
+                </div>
+                <select class="select_box" id="toUnit">
+                    <option value="C">Celcius</option>
+                    <option value="F">Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </select>
+            </div>
+
+
+            <div class="temp">
+                <div> <label for="temperature">Temperature</label></div>
+                <input class="input_box" id="temperature" type="number" placeholder="Enter Temperature">
+            </div>
+
+
+            <button class="convert">Convert</button>
+
+
+            <div class="result_box">
+                <div> <label for="result">Result:</label></div>
+                <input class="input_box" type="text" id="result" readonly>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Temperature Convertor', ' from any to anyone', 'Temperature Convertor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
+

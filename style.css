@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", serif;
+}
+
+.outer_box{
+    height: 100vh;
+    background-color: rgb(168, 83, 47);
+    background: linear-gradient(to bottom right, #666633 0%, #999966 100%);
+    display: flex;
+    background: linear-gradient(to bottom right, #4b0537 0%, #048c6a 100%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:1.5rem ;
+    text-align: center;
+}
+.outer_box #heading{
+    color: rgb(168, 11, 152);
+    
+    font-family: "Raleway", serif;
+    font-size: 2.5rem;
+    border-end-end-radius: 10px;
+    box-shadow: 5px 6px 6px rgb(85, 83, 105);
+}
+.main_box{
+    height: 90%;
+    width: 50%;
+    
+    color: rgb(186, 88, 88);
+    background-color: rgb(2, 3, 39);
+    border-radius: 10px;
+    margin: 10px 0px;
+    
+    box-shadow: 5px 2px 6px rgb(4, 1, 41);
+
+}
+.top_box{
+    
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    height: 100px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.select_box{
+    padding: 5px 200px 5px 20px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    margin-top: 10px;
+   
+
+}
+.temp{
+    
+    height: 100px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_box{
+    padding: 5px 65px 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+.convert{
+    padding:5px 135px 5px 150px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+}
+.result_box{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
